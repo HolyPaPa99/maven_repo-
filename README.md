@@ -17,23 +17,35 @@
       
     </mirror>
     
-  </mirrors>
-  `
+</mirrors>
+`
   
 第二步: pom.xml文件里添加
 
 `
 <repositories>  
+
         <repository>  
+        
             <id>alimaven</id>  
+            
             <name>aliyun maven</name>  
+            
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>  
+            
             <releases>  
+            
                 <enabled>true</enabled>  
+                
             </releases>  
+            
             <snapshots>  
+            
                 <enabled>false</enabled>  
+                
             </snapshots>  
+            
         </repository>  
+        
 </repositories>  
 `
