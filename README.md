@@ -2,7 +2,7 @@
 
 第一步:修改maven根目录下的conf文件夹中的setting.xml文件，内容如下：
 
-`
+
 <mirrors>
 
     <mirror>
@@ -18,11 +18,11 @@
     </mirror>
     
 </mirrors>
-`
+
   
 第二步: pom.xml文件里添加
 
-`
+
 <repositories>  
 
         <repository>  
@@ -48,4 +48,4 @@
         </repository>  
         
 </repositories>  
-`
+
